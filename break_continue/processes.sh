@@ -8,7 +8,7 @@ file_count=0
 skip_count=0
 
 #check all files in break and continue folder
-for file in /home/sezu/Desktop/BashScripting/break_continue
+for file in ./*
 do
        #Skip directories
        if [[ -d "$file" ]]; then
